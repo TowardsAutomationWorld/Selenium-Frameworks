@@ -3,15 +3,22 @@
 
 <suite name="Suite" thread-count="5" parallel="tests">
 
-	<test thread-count="5" name="ChromeTest">
+	<test thread-count="5" name="Chrome Test">
 		<parameter name="browserType" value="chrome" />
 		<classes>
 			<class name="com.mani.data.LoginAutomationSite" />
 		</classes>
 	</test>
 
-	<test name="Firefoxtest">
+	<test name="Firefox Test">
 		<parameter name="browserType" value="firefox" />
+		<classes>
+			<class name="com.mani.data.LoginAutomationSite" />
+		</classes>
+	</test>
+
+	<test name="IE Test">
+		<parameter name="browserType" value="ie" />
 		<classes>
 			<class name="com.mani.data.LoginAutomationSite" />
 		</classes>

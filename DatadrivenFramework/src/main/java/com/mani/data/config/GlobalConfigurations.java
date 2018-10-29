@@ -14,8 +14,10 @@ public class GlobalConfigurations {
 	public String applicationURL;
 	public String chromeDriverPath;
 	public String firefoxDriverPath;
+	public String IEDriverPath;
 	public String chromefoxDriverInitalValue;
 	public String firefoxDriverInitalValue;
+	public String IEDriverInitalValue;
 	public String browserType;
 
 	private GlobalConfigurations() {
@@ -27,14 +29,15 @@ public class GlobalConfigurations {
 			applicationURL = properties.getProperty("App_Url");
 			chromeDriverPath = AppConstants.Project_Base_Path + properties.getProperty("Chrome_Driver_Path");
 			firefoxDriverPath = AppConstants.Project_Base_Path + properties.getProperty("Firefox_Driver_path");
+			IEDriverPath = AppConstants.Project_Base_Path + properties.getProperty("IE_Driver_path");
 			chromefoxDriverInitalValue = properties.getProperty("Chrome_Driver_Inital_Path");
 			firefoxDriverInitalValue = properties.getProperty("Firefox_Driver_Inital_Path");
+			IEDriverInitalValue = properties.getProperty("IE_Driver_Inital_Path");
 			browserType = properties.getProperty("Browser_Type");
 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	public static GlobalConfigurations getInstance() {

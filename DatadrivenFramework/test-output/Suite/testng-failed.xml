@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browserType" value="ie"/>
+  <test name="IE Test(failed)" parallel="tests">
+    <parameter name="browserType" value="ie"/>
+    <classes>
+      <class name="com.mani.data.LoginAutomationSite">
+        <methods>
+          <include name="doLogin" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mani.data.LoginAutomationSite -->
+    </classes>
+  </test> <!-- IE Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
