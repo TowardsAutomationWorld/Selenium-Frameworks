@@ -10,7 +10,7 @@
 		</classes>
 	</test>
 
-	<test name="Firefox Test">
+	<!-- <test name="Firefox Test">
 		<parameter name="browserType" value="firefox" />
 		<classes>
 			<class name="com.mani.data.LoginAutomationSite" />
@@ -22,6 +22,6 @@
 		<classes>
 			<class name="com.mani.data.LoginAutomationSite" />
 		</classes>
-	</test>
+	</test> -->
 
 </suite> 

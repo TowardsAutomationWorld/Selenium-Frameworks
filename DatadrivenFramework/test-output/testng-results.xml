@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="659097" started-at="2018-10-29T03:12:28Z" finished-at="2018-10-29T03:23:27Z">
+  <suite name="Suite" duration-ms="35030" started-at="2019-01-19T19:51:05Z" finished-at="2019-01-19T19:51:40Z">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="50768" started-at="2018-10-29T03:12:28Z" finished-at="2018-10-29T03:13:18Z">
+    <test name="Chrome Test" duration-ms="35030" started-at="2019-01-19T19:51:05Z" finished-at="2019-01-19T19:51:40Z">
       <class name="com.mani.data.LoginAutomationSite">
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@482f8f11]" name="setUpBrowser" is-config="true" duration-ms="17553" started-at="2018-10-29T08:42:28Z" finished-at="2018-10-29T08:42:45Z">
+        <test-method status="PASS" signature="initializeReport()[pri:0, instance:com.mani.data.LoginAutomationSite@39aeed2f]" name="initializeReport" is-config="true" duration-ms="32" started-at="2019-01-20T01:21:05Z" finished-at="2019-01-20T01:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReport -->
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@39aeed2f]" name="setUpBrowser" is-config="true" duration-ms="11487" started-at="2019-01-20T01:21:05Z" finished-at="2019-01-20T01:21:17Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@482f8f11]" name="doLogin" duration-ms="8446" started-at="2018-10-29T08:42:45Z" data-provider="testData" finished-at="2018-10-29T08:42:54Z">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@39aeed2f]" name="doLogin" duration-ms="6148" started-at="2019-01-20T01:21:18Z" data-provider="testData" finished-at="2019-01-20T01:21:24Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@482f8f11]" name="doLogin" duration-ms="7732" started-at="2018-10-29T08:42:54Z" data-provider="testData" finished-at="2018-10-29T08:43:01Z">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@39aeed2f]" name="doLogin" duration-ms="5699" started-at="2019-01-20T01:21:24Z" data-provider="testData" finished-at="2019-01-20T01:21:30Z">
           <params>
             <param index="0">
               <value>
@@ -50,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@482f8f11]" name="doLogin" duration-ms="8252" started-at="2018-10-29T08:43:01Z" data-provider="testData" finished-at="2018-10-29T08:43:10Z">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@39aeed2f]" name="doLogin" duration-ms="5215" started-at="2019-01-20T01:21:30Z" data-provider="testData" finished-at="2019-01-20T01:21:35Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@482f8f11]" name="doLogin" duration-ms="8207" started-at="2018-10-29T08:43:10Z" data-provider="testData" finished-at="2018-10-29T08:43:18Z">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@39aeed2f]" name="doLogin" duration-ms="5300" started-at="2019-01-20T01:21:35Z" data-provider="testData" finished-at="2019-01-20T01:21:40Z">
           <params>
             <param index="0">
               <value>
@@ -82,177 +86,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mani.data.LoginAutomationSite@482f8f11]" name="tearDown" is-config="true" duration-ms="408" started-at="2018-10-29T08:43:18Z" finished-at="2018-10-29T08:43:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mani.data.LoginAutomationSite@39aeed2f]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-01-20T01:21:40Z" finished-at="2019-01-20T01:21:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopReorts()[pri:0, instance:com.mani.data.LoginAutomationSite@39aeed2f]" name="stopReorts" is-config="true" duration-ms="100" started-at="2019-01-20T01:21:41Z" finished-at="2019-01-20T01:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReorts -->
       </class> <!-- com.mani.data.LoginAutomationSite -->
     </test> <!-- Chrome Test -->
-    <test name="Firefox Test" duration-ms="54861" started-at="2018-10-29T03:12:28Z" finished-at="2018-10-29T03:13:22Z">
-      <class name="com.mani.data.LoginAutomationSite">
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@6f7fd0e6]" name="setUpBrowser" is-config="true" duration-ms="22026" started-at="2018-10-29T08:42:28Z" finished-at="2018-10-29T08:42:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@6f7fd0e6]" name="doLogin" duration-ms="7771" started-at="2018-10-29T08:42:50Z" data-provider="testData" finished-at="2018-10-29T08:42:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[subbu.marani@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malli@143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@6f7fd0e6]" name="doLogin" duration-ms="7735" started-at="2018-10-29T08:42:57Z" data-provider="testData" finished-at="2018-10-29T08:43:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[urmail2subbu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malli@143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@6f7fd0e6]" name="doLogin" duration-ms="7749" started-at="2018-10-29T08:43:05Z" data-provider="testData" finished-at="2018-10-29T08:43:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[subbuvoice@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malli@143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@6f7fd0e6]" name="doLogin" duration-ms="7124" started-at="2018-10-29T08:43:13Z" data-provider="testData" finished-at="2018-10-29T08:43:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[subbugrid@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malli@143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mani.data.LoginAutomationSite@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="2352" started-at="2018-10-29T08:43:20Z" finished-at="2018-10-29T08:43:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mani.data.LoginAutomationSite -->
-    </test> <!-- Firefox Test -->
-    <test name="IE Test" duration-ms="659097" started-at="2018-10-29T03:12:28Z" finished-at="2018-10-29T03:23:27Z">
-      <class name="com.mani.data.LoginAutomationSite">
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@3bfdc050]" name="setUpBrowser" is-config="true" duration-ms="9748" started-at="2018-10-29T08:42:28Z" finished-at="2018-10-29T08:42:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@3bfdc050]" name="doLogin" duration-ms="171146" started-at="2018-10-29T08:42:39Z" data-provider="testData" finished-at="2018-10-29T08:45:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[subbu.marani@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malli@143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@3bfdc050]" name="doLogin" duration-ms="167781" started-at="2018-10-29T08:45:30Z" data-provider="testData" finished-at="2018-10-29T08:48:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[urmail2subbu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malli@143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@3bfdc050]" name="doLogin" duration-ms="156709" started-at="2018-10-29T08:48:18Z" data-provider="testData" finished-at="2018-10-29T08:50:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[subbuvoice@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malli@143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mani.data.LoginAutomationSite@3bfdc050]" name="doLogin" duration-ms="151736" started-at="2018-10-29T08:50:55Z" data-provider="testData" finished-at="2018-10-29T08:53:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[subbugrid@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malli@143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mani.data.LoginAutomationSite@3bfdc050]" name="tearDown" is-config="true" duration-ms="17" started-at="2018-10-29T08:53:27Z" finished-at="2018-10-29T08:53:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mani.data.LoginAutomationSite -->
-    </test> <!-- IE Test -->
   </suite> <!-- Suite -->
 </testng-results>

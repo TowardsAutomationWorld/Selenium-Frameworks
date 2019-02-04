@@ -19,6 +19,7 @@ public class GlobalConfigurations {
 	public String firefoxDriverInitalValue;
 	public String IEDriverInitalValue;
 	public String browserType;
+	public String isRunInCloud;
 
 	private GlobalConfigurations() {
 		try {
@@ -34,6 +35,7 @@ public class GlobalConfigurations {
 			firefoxDriverInitalValue = properties.getProperty("Firefox_Driver_Inital_Path");
 			IEDriverInitalValue = properties.getProperty("IE_Driver_Inital_Path");
 			browserType = properties.getProperty("Browser_Type");
+			isRunInCloud = properties.getProperty("isRunInCloud");
 
 		} catch (Exception e) {
 			e.printStackTrace();
